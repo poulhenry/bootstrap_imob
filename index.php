@@ -13,16 +13,16 @@
     <header class="main_header">
         <div class="header_bar bg-front">
             <div class="container">
-                <div class="row">
-                    <div class="col-4 d-flex justify-content-center align-items-center p-2 text-white">
+                <div class="row justify-content-around">
+                    <div class="d-none d-lg-flex col-lg-4 justify-content-center align-items-center p-2 text-white">
                         <i class="icon-location-arrow"></i>
-                        <p class="my-auto ml-3">Avenida Pequeno Principe, 0 Brasil/SC</p>
+                        <p class="my-auto ml-3">Av. Pequeno Principe, 0 Brasil/SC</p>
                     </div>
-                    <div class="col-4 d-flex justify-content-center align-items-center p-2 text-white">
+                    <div class="d-none d-md-flex col-md-6 col-lg-4 justify-content-center align-items-center p-2 text-white">
                         <i class="icon-clock-o"></i>
                         <p class="my-auto ml-3">Seg/Sex: 09:00h - 19:00 Sab/Dom: Plantão</p>
                     </div>
-                    <div class="col-4 d-flex justify-content-center align-items-center p-2 text-white">
+                    <div class="d-flex col-4 col-md-6 col-lg-4 justify-content-center align-items-center p-2 text-white">
                         <i class="icon-envelope"></i>
                         <p class="my-auto ml-3">contato@paulo.com.br<br>+55 (11) 3235-2352</p>
                     </div>
@@ -57,7 +57,7 @@
       	</nav>
     </header>
 
-	<?php 
+	<?php
 
 		$getApp = filter_input(INPUT_GET, "app", FILTER_SANITIZE_STRIPPED);
 
@@ -70,6 +70,59 @@
 		}
 
 	?>
+
+	<article class="main_option bg-dark text-white py-5">
+		<div class="container">
+			<div class="row mx-auto" style="width: 500px">
+				<h1>Quer ficar por dentro das novidades?</h1>
+				<p>Deuxe seu nome e o melhor e-mail nos campos abaixo e nós vamos lhe informar sobre os melhores negócios de todos os lançamentos do sul da ilha</p>
+				<form action="">
+					<input type="text" class="form-control" placeholder="Digite seu nome " size="50">
+					<input type="email" class="form-control" placeholder="Digite seu e-mail" size="50">
+					<button type="submit" class="btn btn-front">Me avise!</button>
+				</form>
+			</div>
+		</div>
+	</article>
+
+	<section class="main_footer bg-light" style="background: url(assets/images/footer.png) repeat-x bottom center; background-size: 10%">
+		<div class="container pt-5" style="padding-bottom: 120px">
+			<div class="row justify-content-around text-muted">
+				<div class="col-12 col-md-3 col-lg-3">
+					<h1 class="pb-2">Navegue <span class="text-front">Aqui!</span></h1>
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="" class="text-front">Destaque</a></li>
+						<li><a href="">Alugar</a></li>
+						<li><a href="">Comprar</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-9 col-lg-6">
+					<h1 class="pb-2">Nos <span class="text-front">Conheça!</span></h1>
+					<p>Nossa maior satifasção é te ajudar a encontrar seu imóvel dos sonhos nos bairros do Sul da Ilha da Maringa, em Florianopolis.</p>
+					<h1 class="pb-2">Quer <span class="text-front">Investir?</span></h1>
+					<p>Entre me contato com nossa equipe e vamos informar sempre sobre os melhores negócios.</p>
+				</div>
+				<div class="col-12 col-md-12 col-lg-3 text-center">
+					<button class="btn btn-front icon-facebook icon-notext"></button>
+					<button class="btn btn-front icon-instagram icon-notext"></button>
+					<button class="btn btn-front icon-twitter icon-notext"></button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="main_copyright py-3 bg-front text-white text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="mb-0">Imobiliária | CRECI 1234 | Av. Pequeno Principe, 0 - Campeche Florianopolis/SC</p class="mb-0">
+					<p class="mb-0">Todos os direitos reservados - Paulo Santana</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

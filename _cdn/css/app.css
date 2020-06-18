@@ -2796,6 +2796,25 @@ select.selectpicker {
   font-size: 0.875em;
 }
 
+.main_footer h1 {
+  font-size: 1.4em;
+  border-bottom: 1px solid #ccc;
+}
+.main_footer ul {
+  padding-left: 0;
+}
+.main_footer ul li {
+  list-style: none;
+  margin-bottom: 4px;
+}
+.main_footer ul li a {
+  color: #666;
+}
+
+.main_copyright {
+  font-size: 0.875em;
+}
+
 .main_slide {
   background-image: url("../../../../bootstrap_imob/assets/images/front1.jpg");
   background-position: center 65%;
@@ -2869,6 +2888,31 @@ select.selectpicker {
   font-size: 0.875em;
   margin-top: 6px;
   margin-bottom: 0;
+}
+
+.main_option {
+  text-align: center;
+}
+.main_option h1 {
+  display: block;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.main_option p {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.main_option form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.main_option input {
+  margin-bottom: 10px;
+}
+.main_option button {
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */
